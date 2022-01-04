@@ -1,0 +1,12 @@
+.brand {
+    width: 50px;
+    filter: invert(70%);
+    cursor: pointer;
+}
+
+.link {
+    cursor: pointer;
+    color: white !important;
+    font-family: 'Quicksand', sans-serif;
+}
+

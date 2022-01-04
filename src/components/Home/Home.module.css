@@ -1,0 +1,23 @@
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    font-size: 10vw !important;
+}
+
+.title {
+    font-size: 2vw !important;
+}
