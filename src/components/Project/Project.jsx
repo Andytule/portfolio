@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { ChessImg, CovidAppImg, BlokkusImg, AStarImg, DrawingImg, ElectroImg } from './images'
 
 const Project = () => {
+
     const info = [
         [
             {

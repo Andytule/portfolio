@@ -9,25 +9,24 @@ import { Button, CardActionArea, CardActions } from '@mui/material'
 const Box = ({ data: { title, text, image, demo, github } }) => {
 
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card className={styles.container} sx={{ maxWidth: 345 }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
-                    height="140"
                     image={image}
                     alt={text}
                 />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        {title}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        {text}
-                    </Typography>
-                </CardContent>
             </CardActionArea>
+            <CardContent className={styles.content}>
+                <Typography gutterBottom variant="h5" component="div">
+                    {title}
+                </Typography>
+                <Typography variant="body2" color="text.primary">
+                    {text}
+                </Typography>
+            </CardContent>
             <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="secondary">
                     Demo
                 </Button>
             </CardActions>

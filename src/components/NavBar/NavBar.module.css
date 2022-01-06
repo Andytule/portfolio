@@ -5,8 +5,8 @@
 }
 
 .link {
+    text-align: right;
     cursor: pointer;
     color: white !important;
-    font-family: 'Quicksand', sans-serif;
 }
 
