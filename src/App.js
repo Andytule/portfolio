@@ -6,21 +6,9 @@ import styles from "./App.module.css";
 const theme = createTheme({
   palette: {
     type: "light",
-    primary: {
-      main: "#232e52",
-    },
-    secondary: {
-      main: "#bfc1d3",
-    },
-    background: {
-      paper: "#434f6f",
-    },
-    text: {
-      primary: "#ffffff",
-    },
   },
   typography: {
-    fontFamily: ["Quicksand", "sans-serif"].join(","),
+    fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
   },
 });
 

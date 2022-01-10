@@ -1,13 +1,17 @@
 import React from 'react'
 import styles from './Home.module.css'
-import { Container } from 'react-bootstrap'
+import { Container, Typography } from '@mui/material'
 
 const Home = () => {
     return (
         <div className={styles.container} id='home'>
             <Container fluid='md' className={styles.info}>
-                <h1 className={styles.name}>Andy Le</h1>
-                <h2 className={styles.title}>Software Developer</h2>
+                <Typography variant="h1">
+                    Andy Le
+                </Typography>
+                <Typography variant="h3">
+                    Software Engineer
+                </Typography>
             </Container>
         </div>
     )
