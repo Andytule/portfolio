@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styles from "./Home.module.css";
 import { Container, Typography } from "@mui/material";
 
@@ -10,7 +10,7 @@ const Home = () => {
         <Typography variant="h1" color="text.primary">
           Andy Le
         </Typography>
-        <Typography variant="h3" color="text.primary">
+        <Typography variant="h4" color="text.primary">
           Software Engineer
         </Typography>
       </Container>

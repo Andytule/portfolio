@@ -3,6 +3,7 @@ import { Navbar, Nav, Image } from "react-bootstrap";
 import logo from "./images/brand.png";
 import styles from "./NavBar.module.css";
 import { Link } from "react-scroll";
+import { Typography } from "@mui/material";
 
 const NavBar = () => {
   return (
@@ -28,7 +29,9 @@ const NavBar = () => {
               to="projects"
               smooth={true}
             >
-              Projects
+              <Typography variant="h5" color="text.primary">
+                Projects
+              </Typography>
             </Nav.Link>
             <Nav.Link
               as={Link}
@@ -36,7 +39,9 @@ const NavBar = () => {
               to="projects"
               smooth={true}
             >
-              Resume
+              <Typography variant="h5" color="text.primary">
+                Resume
+              </Typography>
             </Nav.Link>
             <Nav.Link
               as={Link}
@@ -44,7 +49,9 @@ const NavBar = () => {
               to="projects"
               smooth={true}
             >
-              Contact
+              <Typography variant="h5" color="text.primary">
+                Contact
+              </Typography>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

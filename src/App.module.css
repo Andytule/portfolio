@@ -4,5 +4,5 @@
     background-image: url('./assets/images/wallpaper.jpg');
     background-size: cover;
     background-position: center; 
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
